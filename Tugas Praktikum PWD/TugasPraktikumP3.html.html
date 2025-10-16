@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas P3</title>
+</head>
+
+<style>
+header {
+    background-color:darksalmon;
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2196f3;
+    padding: 10px 20px;
+    color: white;
+}
+
+nav .logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(OIP.webp);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+}
+
+nav .menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav .menu a:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color:bisque;
+}
+
+article {
+    background-color:burlywood;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+aside {
+    background-color:cornsilk;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color:antiquewhite;
+    color: gray;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+</style>
+
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <nav>
+        <div class="logo"></div>
+        <div class="menu">
+            <a href="">Home</a>
+            <a href="">Tentang</a>
+            <a href="">Kontak</a>
+        </div>
+    </nav>
+
+    <section>
+        <article>
+            <h2>Artikel</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem magni saepe numquam rem perspiciatis consequatur consequuntur, maiores quidem dolorum beatae illo nostrum dolorem. Aperiam, qui soluta? Optio natus exercitationem accusantium!</p>
+        </article>
+
+        <aside>
+            <h2>Aside</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint tempora perferendis quod vel, ea tenetur repellat numquam molestias nam ad deserunt suscipit modi, nihil totam? Mollitia iste rerum rem consequuntur.</p>
+        </aside>
+    </section>
+
+    <footer>
+        <p>Teknik © 2025</p>
+    </footer>
+</body>
+</html>
